@@ -76,7 +76,7 @@ MODELS/
 
 # Environment Install
 
-We follow the environment installation guideline of `PLLaVA`](https://github.com/magic-research/PLLaVA?tab=readme-ov-file).
+We follow the environment installation guideline of [`PLLaVA`](https://github.com/magic-research/PLLaVA?tab=readme-ov-file).
 
 1. Above all, the following environment set up is for python 3.10. If you choose to use conda for environment setup, we recommend creating the virtual environment with:
 ```bash
