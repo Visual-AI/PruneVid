@@ -104,7 +104,7 @@ pip install -r requirements.no_torch.txt # install the following
 
 # Evaluation
 
-As PuneVid is a training-free method, we can directly apply it on the pre-trained models.
+As PruneVid is a training-free method, we can directly apply it on the pre-trained models.
 
 The provided scripts for evaluating model performance is given in `scripts/eval.sh`. Below is the script for evaluating the performance on MVBench, where you can edit the hyper-parameters whatever you want. The default setting is used in our paper.
 
@@ -149,6 +149,9 @@ done
 ```
 
 As for Egoschema, which needs an external service to evaluate the model performance, we run the `evaluate_egoschema_result.py` for evaluation. Before executing the file, you should change the `root_dir` variable to your folder.
+```
+python evaluate_egoschema_result.py
+```
 
 # Acknowledgement
 
