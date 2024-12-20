@@ -150,10 +150,6 @@ done
 
 As for Egoschema, which needs an external service to evaluate the model performance, we run the `evaluate_egoschema_result.py` for evaluation. Before executing the file, you should change the `root_dir` variable to your folder.
 
-```
-python evaluate_egoschema_result.py
-```
-
 # Acknowledgement
 
 This repository is built upon [`PLLaVA`](https://github.com/magic-research/PLLaVA?tab=readme-ov-file), [`ST-LLM`](https://github.com/TencentARC/ST-LLM/tree/main/stllm), and [`LLaVA-OneVision`](https://huggingface.co/lmms-lab). Thanks for those well-organized codebases.
