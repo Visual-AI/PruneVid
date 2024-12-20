@@ -1,4 +1,4 @@
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY=YOUR_API_KEY
 num_frames=16
 test_ratio=1
 
