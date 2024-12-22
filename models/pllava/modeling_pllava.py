@@ -794,7 +794,7 @@ class PllavaForConditionalGeneration(PllavaPreTrainedModel):
             static_mask = mask_expand
             static_feat = torch.masked_select(current_frames, static_mask).view(B, window_size, -1, C).mean(dim=1)
             if static_feat.shape[1] > 14:
-                static_feat = self.spatial_merge_tokens(static_feat, num_cluster=static_feat.shape[1]//2, k=7)
+                static_feat = self.spatial_merge_tokens(static_feat, num_cluster=int(static_feat.shape[1]*self.config.cluster_ratio), k=7)
             static_features.append(static_feat)
             static_sizes.append(static_feat.shape[1])
             
