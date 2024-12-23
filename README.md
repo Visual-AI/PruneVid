@@ -3,7 +3,7 @@ The official repository for paper "PruneVid: Visual Token Pruning for Efficient 
 
 Xiaohu Huang, Hao Zhou, Kai Han
 
- [[`Paper`]][(https://arxiv.org/](https://arxiv.org/abs/2412.16117v1))
+[`Paper`](https://arxiv.org/abs/2412.16117v1)
 
 # Introduction
 ![Framework](assets/framework.png)
