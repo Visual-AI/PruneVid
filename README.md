@@ -164,7 +164,7 @@ This repository is built upon [`PLLaVA`](https://github.com/magic-research/PLLaV
   huang2024prunevid,
   title={PruneVid: Visual Token Pruning for Efficient Video Large Language Models},
   author={Xiaohu Huang and Hao Zhou and Kai Han},
-  booktitle={Arxiv},
+  booktitle={arXiv},
   year={2024}
 }
 ```
