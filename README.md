@@ -1,4 +1,4 @@
-# PruneVid
+# ACL 2025 | PruneVid
 The official repository for paper "PruneVid: Visual Token Pruning for Efficient Video Large Language Models".
 
 Xiaohu Huang, Hao Zhou, Kai Han
